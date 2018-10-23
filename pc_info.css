@@ -11,41 +11,103 @@
 
 */
 
-
 /* Main Styles */
-
-
+main {
+    overflow: auto;
+    position: relative;
+    height: 450px;
+    width: 100%;
+}
 
 /* Infographic Styles */
-
-
+div.infobox {
+    position: absolute;
+}
 
 /* First Infographic */
-
-
+div#info1 {
+    position: absolute;
+    display: block;
+    top: 20px;
+    left: 5%;
+}
 
 /* Second Infographic */
-
+div#info2 {
+    position: absolute;
+    display: block;
+    top: 185px;
+    left: 42%;
+}
 
 
 /* Third Infographic */
-
+div#info3 {
+    position: absolute;
+    display: block;
+    top: 135px;
+    left: 75%;
+}
 
 
 /* Fourth Infographic */
-
+div#info4 {
+    position: absolute;
+    display: block;
+    top: 510px;
+    left: 8%;
+}
 
 
 /* Fifth Infographic */
-
+div#info5 {
+    position: absolute;
+    display: block;
+    top: 800px;
+    left: 3%;
+}
 
 
 /* Sixth Infographic */
-
+div#info6 {
+    position: absolute;
+    display: block;
+    top: 600px;
+    left: 48%;
+}
 
 
 /* Seventh Infographic */
-
+div#info7 {
+    position: absolute;
+    display: block;
+    top: 1000px;
+    left: 68%
+}
 
 
 /* Eighth Infographic */
+div#info8 {
+    position: absolute;
+    display: block;
+    top: 1100px;
+    left: 12%;
+}
+
+/* Extra scroll bar styles */
+main::-webkit-scrollbar {
+    width: 20px;
+}
+
+main::-webkit-scrollbar-track {
+    background: rgb(179, 125, 69);
+}
+
+main::-webkit-scrollbar-thumb {
+    background: rgb(150, 105, 57);
+    border-radius: 10px;
+}
+
+main::-webkit-scrollbar-thumb:hover {
+    background: rgb(121, 118, 118);
+}
